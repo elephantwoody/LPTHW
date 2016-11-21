@@ -163,7 +163,7 @@ class EscapePod(Scene):
 		print "do you take?"
 		
 		good_pod = randint(1,5)
-		huess = raw_input("[pod #]> ")
+		guess = raw_input("[pod #]> ")
 		
 		if int(guess) != good_pod:
 			print "You jump into pod %s and hit the eject button." % guess
